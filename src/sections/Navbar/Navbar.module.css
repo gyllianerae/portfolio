@@ -1,0 +1,47 @@
+.container {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--background-color);
+    height: 8vh;
+    min-width: 75%;
+    border-bottom: 1px solid var(--btn-color);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 50%; 
+    transform: translateX(-50%); 
+
+    h3 {
+        margin-right: 5%;
+    }
+
+    .about {
+        cursor: pointer;
+    }
+    
+    .links, button {
+        display: flex;
+        color: var(--btn-color);
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            color: var(--btn-color);
+        }
+
+        li {
+            margin-right: 20px;
+        }
+    }
+
+}
+
+.colorMode {
+    width: 15px;
+}
+
+.colorMode:hover {
+    cursor: pointer;
+}

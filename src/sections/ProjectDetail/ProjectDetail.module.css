@@ -1,0 +1,23 @@
+/* ProjectDetail.module.css */
+.detailContainer {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+    background-color: var(--project-card-bg);
+  }
+  
+  .projectImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  a {
+    display: block;
+    margin-top: 10px;
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
