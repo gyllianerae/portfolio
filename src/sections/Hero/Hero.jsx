@@ -11,6 +11,10 @@ import linkedinDark from '../../assets/linkedin-dark.svg';
 import CV from '../../assets/cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+
+
 function Hero() {
   const { theme, toggleTheme } = useTheme();
   
@@ -29,15 +33,15 @@ function Hero() {
         <h1> gylliane rae ✿</h1>
         {/* <h2>and i'm a <i>full stack web developer</i></h2> */}
         <p className={styles.description}> a full stack web developer</p>
-        <span>
-          <a href="https://twitter.com" target="_blank">
-            <img src={twitterIcon} alt="Twitter icon" />
-          </a>
-          <a href="https://github.com" target="_blank">
-            <img src={githubIcon} alt="Github icon" />
+        <span className={styles.socialIcons}>
+          <a href="https://github.com/gyllianerae" target="_blank">
+            <FaGithub className={styles.icons} />
           </a>
           <a href="https://linkedin.com" target="_blank">
-            <img src={linkedinIcon} alt="Linkedin icon" />
+            <FaLinkedin className={styles.icons} />
+          </a>
+          <a href="" target="_blank">
+            <MdEmail className={styles.icons} />
           </a>
         </span>
         

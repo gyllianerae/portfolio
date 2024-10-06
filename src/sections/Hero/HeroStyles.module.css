@@ -23,6 +23,17 @@
         }
     }
 
+    .icons {
+        color: var(--text-color);
+        font-size: 1.8rem;
+    }
+
+    .icons:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+    
+
     a {
         width: fit-content;
         align-self: center;
