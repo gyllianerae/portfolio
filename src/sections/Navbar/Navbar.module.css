@@ -2,10 +2,10 @@
     position: fixed;
     top: 0;
     z-index: 1000;
-    background-color: var(--background-color);
+    background-color: #eef0eb;
     height: 8vh;
     min-width: 75%;
-    border-bottom: 1px solid var(--btn-color);
+    border-bottom: 1px solid black;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;

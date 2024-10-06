@@ -1,8 +1,37 @@
 .card {
     transition: transform 200ms ease-in-out;
+    border-radius: 5%;
+    background-color: var(--background-color);
 }
 
 .card:hover {
     transform: scale(1.05);
 }
 
+.carouselImage {
+    border-radius: 5%;
+}
+
+.title {
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.description {
+    text-align: justify;
+}
+
+.button {
+    background-color: var(--text-color);
+    border-color: var(--text-color);
+    color: white;
+}
+
+.button:hover {
+    background-color: var(--project-card-bg);
+    color: var(--text-color);
+}
+
+.buttons {
+    margin: auto;
+}

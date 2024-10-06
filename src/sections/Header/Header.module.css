@@ -1,0 +1,28 @@
+.container {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    /* padding: 10px 20px; */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* .container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+*/
+
+body {
+    padding-top: 70px; 
+}

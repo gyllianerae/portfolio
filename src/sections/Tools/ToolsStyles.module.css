@@ -1,0 +1,27 @@
+/* src/Tools.module.css */
+.toolsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the boxes */
+    margin: 20px 0;
+}
+
+.toolBox {
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px;
+    margin: 10px; /* Space between boxes */
+    text-align: center; /* Center text */
+    width: 150px; /* Fixed width for each box */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.toolBox:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.logo {
+    width: 50px; /* Size of the logo */
+    height: 50px; /* Size of the logo */
+    margin-bottom: 10px; /* Space between logo and name */
+}

@@ -1,9 +1,9 @@
 :root {
-    --background-color: #FFE5EC;
+    --background-color: #fef8ec;
     --btn-color: #F56476;
     --btn-text-color: #fff;
     --project-card-bg: #DFBBB1;
-    --text-color: black;
+    --text-color: #00283d;
     --form-text-color: #F56476;
     --footer-text-color: #F56476;
 }
@@ -103,11 +103,19 @@ p {
 
 @media (width >= 1400px) {
     #root {
-        gap: 100px;
+        gap: 50px;
     }
 
     h1 {
         font-size: 48px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 18px;
     }
 
     .sectionTitle {

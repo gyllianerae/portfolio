@@ -14,20 +14,27 @@ const ProjectCard = ({ title, description, images, sourceCodeLink, websiteLink }
           {images.map((image, index) => (
             <Carousel.Item key={index}>
               <img
-                className="d-block w-100"
+                className={`${styles.carouselImage} d-block w-100`}
                 src={image}
                 alt={`Slide ${index}`}
+                style={{
+                  width: '100%',
+                  height: 'auto',
+                  borderRadius: '5%',
+                }}
               />
             </Carousel.Item>
           ))}
         </Carousel>
         <Card.Body>
-          <Card.Title>{title}</Card.Title>
+          <Card.Title className={styles.title}>{title}</Card.Title>
           <Card.Text className={`${styles.description} fs-6`}>
             {description}
           </Card.Text>
-          <Button href={sourceCodeLink} target="_blank" rel="noopener noreferrer">Source Code</Button>
-          <Button href={websiteLink} target="_blank" rel="noopener noreferrer">Deployed Website</Button>
+          <div className="d-flex justify-content-center mt-2">
+            <Button className={`${styles.button} me-2`} href={sourceCodeLink} target="_blank" rel="noopener noreferrer">Source Code</Button>
+            <Button className={styles.button} href={websiteLink} target="_blank" rel="noopener noreferrer">Deployed Website</Button>
+          </div>
         </Card.Body>
       </Card>
     </Col>

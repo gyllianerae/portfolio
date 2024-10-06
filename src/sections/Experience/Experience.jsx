@@ -26,13 +26,13 @@ function Experience() {
       ];
 
   return (
-    <section id="experience">
+    <section id="experience" className={styles.container}>
         <h2>/experience</h2>
         <div>
         <ul>
             {workExperience.map((experience, index) => (
             <li key={index}>
-                <h3>{experience.company}</h3>
+                <h3 className={styles.title}>{experience.company}</h3>
                 <p>{experience.position}</p>
                 <p>{experience.duration}</p>
             </li>

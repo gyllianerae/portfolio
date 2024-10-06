@@ -1,12 +1,19 @@
-ul {
-    list-style: none;
-    padding-left: 0;
-    margin-left: 0;
-
-    li {
-        padding-left: 1rem;
-        margin: 1rem 0rem;
-        border-left: 1px solid black;
-        
+.container {
+    .company {
+        font-size: 10rem;
     }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+        margin-left: 0;
+    
+        li {
+            padding-left: 1rem;
+            margin: 1rem 0rem;
+            border-left: 1px solid black;
+            
+        }
+    }
+    
 }
