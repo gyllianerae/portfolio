@@ -52,7 +52,15 @@ function Tools() {
             logo: ""
         },
         {
+            name: "Mongoose",
+            logo: ""
+        },
+        {
             name: "Socket.io",
+            logo: ""
+        },
+        {
+            name: "Cloudinary",
             logo: ""
         },
         {
