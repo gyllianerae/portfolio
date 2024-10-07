@@ -132,7 +132,7 @@ const Projects = () => {
         description={project.description} 
         images={project.images} 
         sourceCodeLink={project.sourceCodeLink} 
-        websiteLink={project.websitedLink} 
+        websiteLink={project.websiteLink} 
       />
       ))}
     </Row>

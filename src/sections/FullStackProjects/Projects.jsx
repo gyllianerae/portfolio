@@ -25,6 +25,11 @@ import chatterbox0 from '../../assets/chatterbox-0.png';
 import chatterbox1 from '../../assets/chatterbox-1.png';
 import chatterbox2 from '../../assets/chatterbox-2.png';
 import chatterbox3 from '../../assets/chatterbox-3.png';
+import yelpcamp0 from '../../assets/yelpcamp-0.png';
+import yelpcamp1 from '../../assets/yelpcamp-1.png';
+import yelpcamp2 from '../../assets/yelpcamp-2.png';
+import yelpcamp3 from '../../assets/yelpcamp-3.png';
+import yelpcamp4 from '../../assets/yelpcamp-4.png';
 import sweatlog0 from '../../assets/sweatlog-0.jpeg';
 import sweatlog1 from '../../assets/sweatlog-1.jpeg';
 import sweatlog2 from '../../assets/sweatlog-2.jpeg';
@@ -71,6 +76,19 @@ const Projects = () => {
       sourceCodeLink: "https://github.com/gyllianerae/chat-app",
     },
     {
+      title: "YelpCamp",
+      description: "YelpCamp is a Yelp clone built using the MERN stack, allowing users to create, edit, and delete campgrounds. Users can sign up, log in, and log out, as well as leave reviews and star ratings for campgrounds. The platform provides a seamless experience for managing campground listings and feedback.",
+      images: [
+        yelpcamp0,
+        yelpcamp1,
+        yelpcamp2,
+        yelpcamp3,
+        yelpcamp4
+      ],
+      sourceCodeLink: "https://github.com/gyllianerae/yelpcamp",
+      websiteLink: "https://yelpcamp-6lap.onrender.com/campgrounds"
+    },
+    {
       title: "SweatLog Exercise Tracker",
       description: "SweatLog is a MERN and Bootstrap-based exercise tracker that lets users log workouts. With an easy-to-use interface and real-time insights, it helps users stay motivated and reach their fitness targets efficiently.",
       images: [
@@ -93,7 +111,7 @@ const Projects = () => {
         description={project.description} 
         images={project.images} 
         sourceCodeLink={project.sourceCodeLink} 
-        websiteLink={project.websitedLink} 
+        websiteLink={project.websiteLink} 
       />
       ))}
     </Row>
