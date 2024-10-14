@@ -24,6 +24,11 @@ import buddies1 from '../../assets/buddies-1.png';
 import buddies2 from '../../assets/buddies-2.png';
 import buddies3 from '../../assets/buddies-3.png';
 
+import fitness0 from '../../assets/fitness-0.png';
+import fitness1 from '../../assets/fitness-1.png';
+import fitness2 from '../../assets/fitness-2.png';
+import fitness3 from '../../assets/fitness-3.png';
+
 // import shapi0 from '../../assets/shapi-0.png';
 // import shapi1 from '../../assets/shapi-1.png';
 // import shapi2 from '../../assets/shapi-2.png';
@@ -57,6 +62,18 @@ const Projects = () => {
     //     sourceCodeLink: "https://github.com/18103864/solanacock/tree/main/mememaker-assets",
     //     websiteLink: "https://solcock.xyz/meme-maker",
     // },
+    {
+      title: "Fitness Gym App",
+      description: "A sleek, TypeScript-based web app that enhances your fitness journey. Easily track workouts, manage schedules, and access personalized plans with an intuitive interface for a seamless user experience.",
+      images: [
+        fitness0,
+        fitness1,
+        fitness2,
+        fitness3
+      ],
+      sourceCodeLink: "https://github.com/gyllianerae/fitness-app",
+      websiteLink: "https://yani-fitness.netlify.app/",
+    },
     {
         title: "Flappy Cock Game",
         description: "Flappy Cock is a fun game dedicated to the SolCock memecoin, inspired by the popular Flappy Bird. Built with JavaScript, players guide the SolCock character through a series of challenging obstacles, aiming for the highest score while enjoying a playful twist on the classic gameplay.",

@@ -4,15 +4,15 @@ import styles from './ToolsStyles.module.css';
 function Tools() {
     const tools = [
         {
-            name: "MongoDB",
-            logo: ""
-        },
-        {
             name: "Express.js",
             logo: ""
         },
         {
-            name: "React",
+            name: "Node.js",
+            logo: ""
+        },
+        {
+            name: "MongoDB",
             logo: ""
         },
         {
@@ -20,8 +20,11 @@ function Tools() {
             logo: ""
         },
         {
-            name: "Node.js",
+            name: "React",
             logo: ""
+        },
+        {
+            name: "React Native"
         },
         {
             name: "Vue.js",
@@ -36,8 +39,11 @@ function Tools() {
             logo: ""
         },
         {
-            name: "Axios",
+            name: "TypeScript",
             logo: ""
+        },
+        {
+            name: "JavaScript"
         },
         {
             name: "Bootstrap",
@@ -48,7 +54,15 @@ function Tools() {
             logo: ""
         },
         {
+            name: "Axios",
+            logo: ""
+        },
+        {
             name: "Nodemon",
+            logo: ""
+        },
+        {
+            name: "Git",
             logo: ""
         },
         {
@@ -63,12 +77,6 @@ function Tools() {
             name: "Cloudinary",
             logo: ""
         },
-        {
-            name: "Git",
-            logo: ""
-        },
-        
-
     ]
 
   return (

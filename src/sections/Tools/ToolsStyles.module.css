@@ -12,7 +12,7 @@
     padding: 15px;
     margin: 10px; /* Space between boxes */
     text-align: center; /* Center text */
-    width: 150px; /* Fixed width for each box */
+    /* width: 150px; */
     transition: transform 0.3s; /* Smooth hover effect */
 }
 
