@@ -13,8 +13,8 @@ function About() {
         <br/>
         <p className={styles.description}>
         With my background in accountancy, I bring a unique perspective to web development, understanding how to integrate technology 
-        with business needs effectively. I'm always eager to learn and stay up-to-date with the latest trends in web development. 
-        Let's build something amazing together!
+        with business needs effectively. I am committed to continuous learning and upskilling, always eager to explore the latest trends 
+        and advancements in technology. 
         </p>
     </section>
   )
