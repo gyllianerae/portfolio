@@ -58,6 +58,10 @@ function Tools() {
             logo: ""
         },
         {
+            name: "WordPress",
+            logo: ""
+        },
+        {
             name: "Nodemon",
             logo: ""
         },

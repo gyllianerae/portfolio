@@ -4,7 +4,7 @@ import styles from './Experience.module.css';
 function Experience() {
     const workExperience = [
         {
-          company: "Freelance Crypto Projects",
+          company: "Freelance Web Developer",
           position: "Full Stack Developer",
           duration: "Jun 2024 - Aug 2024",
         },
