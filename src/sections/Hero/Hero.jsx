@@ -37,10 +37,10 @@ function Hero() {
           <a href="https://github.com/gyllianerae" target="_blank">
             <FaGithub className={styles.icons} />
           </a>
-          <a href="https://linkedin.com" target="_blank">
+          <a href="https://www.linkedin.com/in/gylliane-permale-12b830331/" target="_blank">
             <FaLinkedin className={styles.icons} />
           </a>
-          <a href="" target="_blank">
+          <a href="mailto:gyllianerae@gmail.com" target="_blank">
             <MdEmail className={styles.icons} />
           </a>
         </span>

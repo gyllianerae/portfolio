@@ -17,7 +17,7 @@ function Header() {
             <Nav.Link href="#experience">Experience</Nav.Link>
             <Nav.Link href="#tools">Tools</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
-            {/* <Nav.Link href="#tools">Resume</Nav.Link> */}
+            <Nav.Link href="https://drive.google.com/file/d/1RvOEAmRKQkmbX17YEhgIBADI1DMtc82W/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
